@@ -32,9 +32,7 @@
     $wiki = new Tautan("https://chinafake.fandom.com", "Chinafake Wiki", "_blank", "confirmation(id)", "chinafake.fandom.com");
     $laixing = new Tautan("http://laixing.com/En/Index", "LaiXing.com", "_blank", "confirmation(id)", "laixing.com");
     $htoys = new Tautan("http://htoys.com/", "HToys.com", "_blank", "confirmation(id)", "htoys.com");
-    $send_email = new Tautan("send_email.php", "Send E-mail", "_self", "", "email");
 
-
-    $laman = array($home, $img, $video, $audio_full, $wiki, $laixing, $htoys, $send_email);
+    $laman = array($home, $img, $video, $audio_full, $wiki, $laixing, $htoys);
 
     ?>

@@ -20,6 +20,7 @@
         </div>
     </div>
     <div class="kontainer">
+        <h1><?php echo $title; ?></h1>
         <?php 
             $judul_audio = ["Abracadabra", "Axel F", "Butterfly", "Fishes Fishes", "Gangnam Style", "Godzilla 1984 Roar", "Kiss (When The Sun Don't Shine)", "Primetime-Sexcrime", "Sha La Long", "Sister Sister", "Tarzan & Jane", "The Lonely Goatherd"];
             $format = ".jpg";

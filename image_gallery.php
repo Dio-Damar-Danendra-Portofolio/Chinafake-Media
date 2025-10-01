@@ -8,6 +8,7 @@
     <?php include "inc/header.php"; ?>
     <main>
     <div class="kontainer">
+        <h1><?php echo $title; ?></h1>
         <?php 
             $prefiks = "Image_";
             $alternatif = "Image not Available";

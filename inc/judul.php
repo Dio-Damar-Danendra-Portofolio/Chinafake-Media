@@ -19,10 +19,6 @@
         case 'audio_full.php':
             $title = "Chinafake Full, Original & HD Audios";
         break;
-
-        case 'send_email.php':
-            $title = "Send an E-mail";
-        break;
         
         default:
             $title = ucfirst($page);
