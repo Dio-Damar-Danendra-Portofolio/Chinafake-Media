@@ -14,7 +14,7 @@
             image below to read the web manual.
         </p>
     <?php foreach ($audio as $aud) { ?>
-        <div class="gambar" style="padding: 3px;">
+        <div class="gambar" style="padding: 10px;">
             <img id="manual" src="link/<?php echo $aud . " toy.jpg" ?>" title="Click here to read the web manual" onclick="web_manual()">
         </div>
     </div>
