@@ -6,8 +6,14 @@ function playAudio(audio_title){
     var format = "";
     const audioObject = document.getElementsByTagName("audio")[0];
     const play_pause_btn = document.getElementById("play_pause");
-    const format = ".mp3";
-    audioObject.type = "audio/mp3";
+    if (audio_title == "Godzilla 1984 Roar") {
+        format = ".wav";
+        audioObject.type = "audio/wav";
+    } else {
+        format = ".mp3";
+        audioObject.type = "audio/mp3";
+
+    }
     audioObject.src = prefix + audio_title + format;
     play_pause_btn.textContent = "Pause Audio";
 }

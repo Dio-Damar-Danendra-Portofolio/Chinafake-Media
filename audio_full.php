@@ -12,8 +12,7 @@
           <h1><?php echo $title; ?></h1>
      </div>
      <div class="kontainer" style="display: flex; flex-direction: column; align-items: center;">
-          
-                    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px;">
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px;">
                <div class="obyek">
                     <button type="button" onclick="play_pause_audio()" id="play_pause">Play Audio</button>
                </div>
@@ -24,10 +23,11 @@
                     <button type="button" id="mute" onclick="mute_audio()">Mute Audio</button>
                </div>
           </div>
-
-                    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
                <?php 
-                    $judul_audio = ["Abracadabra", "Axel F", "Butterfly", "Fishes Fishes", "Gangnam Style", "Godzilla 1984 Roar", "Kiss (When The Sun Don't Shine)", "Primetime-Sexcrime", "Sha La Long", "Sister Sister", "Tarzan & Jane", "The Lonely Goatherd"];
+                    $judul_audio = ["Abracadabra", "Axel F", "Butterfly", "Fishes Fishes", 
+                    "Gangnam Style", "Godzilla 1984 Roar", "Kiss (When The Sun Don't Shine)", 
+                    "Primetime-Sexcrime", "Sha La Long", "Sister Sister", "Tarzan & Jane", "The Lonely Goatherd"];
                     $format = ".jpg";
                     $alternatif = "Image not Available";
                     foreach ($judul_audio as $audio) { 
