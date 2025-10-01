@@ -7,7 +7,9 @@
 <body>
     <?php include "inc/header.php"; ?>
     <main>
-    <div class="kontainer">
+    <div class="kontainer" style="display: flex; flex-direction: column; align-items: center;">
+        <h1><?php echo $title; ?></h1>
+            <div style="display: flex; flex-wrap: wrap; justify-content: start; gap: 10px;">
         <?php 
             $prefiks = "Video_";
             $format = ".mp4";
@@ -20,6 +22,7 @@
             </video>
         </div>
         <?php } ?>
+        </div>
     </div>
     <script src="css_js/script.js"></script>
     </main>
